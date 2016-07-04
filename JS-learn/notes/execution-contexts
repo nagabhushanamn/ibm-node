@@ -1,0 +1,48 @@
+
+
+while initial-script loading , JS engine will create ' Global Execution-Context'
+
+ "Execution-Context"
+  --> memory in which all args,local var with instruction to execute
+  
+  
+  window ( browser ) === process/global ( nodejs )
+  
+  this  ===> global-obj
+  
+  
+  --------------------------------------------------------
+  
+  "Execution-Context" - 2 phases
+  
+  a. context-creation
+  
+     --> all variables/functions are hoisted(lifting-up) to top-o context with
+         default value ( undefined )
+     --> all global-var/func will become property of global-obj. ( only in browser-envi )    
+  
+  b. context-execution
+  
+    --> all instructions will get execute ony-by-one
+    
+    
+   ------------------------------------------------------ 
+   
+   
+   every function-invocation also creates 
+   'Execution-Context' which is child of above'
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  
+  

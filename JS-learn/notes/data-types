@@ -1,0 +1,36 @@
+
+
+data-structures / data-types / variables
+------------------------------------------
+
+
+   1. simple types  --> values
+   
+      a. string
+      b. number
+      c. boolean
+      d. null
+      e. undefined
+   
+   2. complex types --> objects
+   
+   
+      obj --> collection of name:value pairs about an entity.
+      
+      how to create obj in js lang ?
+      
+      
+      syntax :
+      
+      new ConstructorFunction();
+      
+      in ES-6
+      
+      new ClassName();
+      
+      
+      ------------------------------------------------------------
+      
+      
+      
+      

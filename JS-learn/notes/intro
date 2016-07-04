@@ -1,0 +1,77 @@
+
+
+ 
+ JS 
+
+ --> scripting lang for web-pages in browser-envi.
+ +
+ --> server-side lang on NodeJS.
+ --> desktop appln.
+ --> commandl-ne toools 
+ --> mobile appln
+
+ -----------------------------------------
+
+JS - features
+
+--> functional-prog lang.
+--> OO lang
+
+--> it supports 'dynamic' data-types
+--> closure(s)
+
+--> single-threaded lang.
+--> it supports better concurrency with runtime support.
+
+
+------------------------------------------
+
+
+JS lang based on 'ECMAScript spec'
+
+latest : ECMAScript 2015  or ES6
+
+--------------------------------------------
+
+How to run JS code ?
+
+
+we need 'JS engine'
+
+
+browser-envi
+
+google's chrome  --> v8 ( c++ )
+firefox          --> rhino ( java )
+IE               --> chakra
+safari           --> nitro
+
+non-browser-envi
+
+NodeJS           --> v8
+JVM              --> rhino / nashorn
+Apache-CouchDB
+
+
+--------------------------------------
+
+
+JS-lang learn
+--------------
+
+labsetup:
+
+
+---> install NodeJS  ( www.nodejs.org )
+
+
+
+
+
+
+
+
+
+
+
+
