@@ -1,0 +1,109 @@
+
+
+what JS-lang can do on HTML-page?
+
+js-lang using 'Web-APIs' can bring any dynamic-functionality to web-page
+
+web-APIs --> functionality which are implemented & provided by browsers
+
+e.g Web APIs
+
+     DOM,XHR,Timer , etc...
+     
+     
+using DOM API
+--------------
+ --> can create/select/update/delete HTML elements
+ --> can change element's attribute values
+ --> can change element's styles ( css )
+ --> can change element's text 
+ --> can validate form-fields
+ --> can listen events on elements
+ --> can create rich-UI components ( markup+css+js+data )
+ 
+ using XHR API
+ -------------
+ --> can communicate with server-side, update response in existing-page ( AJAX )
+ 
+ 
+ HTML-5 APIs
+ --------------
+ 
+   1. canvas --> drawaing element
+   2. storage API --> to persist data browser-side.
+   3. multi-media API --> 
+   4. geo
+   5. WebWorker
+   6. SSE ( Server Sent Events )
+   7. Web-Sockets
+   8. WebGL
+   
+   etc...
+   
+   
+   =======================================
+   
+   
+   JS-lang is
+   
+   --> single-threaded lang
+   --> do better concurrency ( ??? )
+   --> do non-blocking IO    ( ??? )
+   
+   ---------------------------------------
+   
+   
+   browser e.g chrome
+   
+    1. JS-engine ( v8 )
+    
+       a. single-call-stack
+       b. heap
+    
+    2. Web APIs ( DOM , XHR , etc.. )
+    
+    3. callback/message queue
+    
+    4. Event-Loop 
+    
+    ----------------------------------------   
+   
+   
+   
+    Front-End development ==> HTML + CSS + JS + Web-APIs
+   
+   
+   JS --> plain-JS
+   
+   
+   Limitations/complexity of plain-JS
+   ----------------------------------
+   
+   --> browser compatibility
+   --> too much code for simple-oprn.
+   --> performance  ( DOM manipulation )
+   --> memory leaks
+   --> very difficult organize code..
+   
+   
+   soln:
+   
+   --> use JS libraries and Frameworks
+   
+      JS-libaries
+      
+      a. jQuery
+      b. knockout
+      
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+ 
