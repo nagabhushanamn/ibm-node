@@ -51,12 +51,18 @@ $(document).ready(function(){
 		box.hide();
 	});
 	
+	//--------------
+	
+	$('.well button').on('click',function(event){
+		console.dir(event.target.id);
+	});
+	
 });
 
 //------------------------------------------------------------
 
 
-
+ 
 
 
 

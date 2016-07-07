@@ -1,0 +1,20 @@
+
+
+ best standards to create/load js-modules
+ ---------------------------------------
+ 
+ 
+ 1. AMD ( Async Module Definition )
+ 2. commonJS module system
+ 
+ 
+ -------------------------
+ 
+ 
+ AMD spec
+ ---------
+ 
+ 1. define()
+ 2. require()
+ 
+ -------------------------
