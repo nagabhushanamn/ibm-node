@@ -32,7 +32,7 @@ app.get('/pm_page', function(req, res) {
 });
 
 app.get('/newproduct', function(req, res) {
-	res.render('product-form');
+	res.render('new-product-form');
 });
 
 app.use('/products', products);

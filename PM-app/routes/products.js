@@ -32,7 +32,7 @@ router.get('/', function(req, res) {
 router.get('/edit/:prodId', function(req, res) {
 	console.log(req.params.prodId);
 	Product.findOne({id:req.params.prodId},function(err,item){
-		res.render('product-form',{product:item,action:'edit'});
+		res.render('edit-product-form',{product:item,action:'edit'});
 	});
 });
 router.post('/', function(req, res) {
