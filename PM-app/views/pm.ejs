@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PM</title>
+    <link rel='stylesheet' href='css/bootstrap.css' />
+  </head>
+  <body class='container'>
+    
+    <div class="page-header">PM - app </div>
+   
+     <div class="row">
+     
+     	<div class="col-sm-3">
+     		<ul class="nav nav-stacked">
+     			<li><a href="/products">View All</a></li>
+     			<li><a href="/newproduct">Add New</a></li>
+     		</ul>
+     	</div>
+     	<div class="col-sm-9">
+     	
+     			
+     	
+     		   <table class="table table-bordered">
+     			<% 
+     			if(allProducts!==null){
+     			
+     			allProducts.forEach(function(product){ 
+     			
+     			%>
+     			
+     			<tr>
+     				<td><%=product.id%></td>
+     				<td><%=product.name%></td>
+     				<td><%=product.price%></td>
+     				<td><%=product.description%></td>
+     				<td>
+     					<a href="products/edit/<%=product.id%>">
+     						<span class="glyphicon glyphicon-edit"></span>
+     					</a>
+     				</td>
+     				<td>
+     				<a href="products/del/<%=product.id%>">
+     					<span class="glyphicon glyphicon-trash"></span>
+     				</a>
+     				</td>
+     			</tr>
+     			
+     			<% 
+     			
+     			});
+     			
+     			}
+     			%>
+     			<table>
+     		
+     	
+     	</div>
+     
+     </div> 
+   
+    
+  </body>
+</html>
